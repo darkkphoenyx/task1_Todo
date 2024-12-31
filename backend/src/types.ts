@@ -7,5 +7,4 @@ export interface RequestWithUserObject extends Request {
   export interface UserJWTPayload {
       email: string;
       password: string;
-      isAdmin: boolean
   }
