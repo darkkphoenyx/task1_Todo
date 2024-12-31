@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express'
 import * as Authservice from '../services/auth.service'
-import { loginBodySchema, signupBodySchema } from '../validators/auth.validator'
+import { loginBodySchema, signupBodySchema } from '../validators/auth.validators'
 
 export const registerUser = async (
     req: Request,
